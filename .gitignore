@@ -1,0 +1,23 @@
+# Environments
+venv/
+env/
+.env
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django database and logs
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
