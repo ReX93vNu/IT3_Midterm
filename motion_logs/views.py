@@ -19,7 +19,7 @@ def send_sms_alert(location, time):
     }
     payload = {
         "recipients": [TARGET_PHONE_NUMBER],
-        "message": f"ALERT: Motion detected at {location} at {time}."
+        "message": f"ALERT: Motion detected at {location} at {time}. May kumakamang towards u :o"
     }
     
     try:
